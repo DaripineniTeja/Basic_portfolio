@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #56666B;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.details{
+    height: 80px;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+
+.name{
+    display: flex;
+    margin-left: 43%;
+    position: relative;
+}
+
+.name h2{
+    margin-top: 15px;
+}
+
+.designation{
+    display: flex;
+    margin-left: 44.5%;
+}
+
+
+.about{
+    background-color: white;
+    color: black;
+    height: 155px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.about p{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+   margin-top: 15px;
+}
+
+.projects{
+    background-color: white;
+    color: black;
+    height: 350px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.project1{
+    margin-top: 15px;
+    text-align: start;
+}
+
+.project2{
+    margin-top: 30px;
+    text-align: start;
+}
+
+.project1 p{
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.project2 p{
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+
+.connect{
+    margin-top: 15px;
+    background-color: white;
+    color: black;
+}
+
+form{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:bisque;
+    border-radius: 10px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+form label{
+    display:block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input,
+form textarea{
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 20px;
+    bottom: 1px solid black;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+
+form button{
+    display: inline-block;
+    margin-left: 40%;
+    padding: 17px 25px;
+    font-size: 16px;
+    background-color: #007bff;
+    border:none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+form button:hover{
+    background-color:#0056b3;
+}
+
